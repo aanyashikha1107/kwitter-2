@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script src="main.js"></script>
+
+<style>
+
+
+.input-container {
+  
+    display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+h2 {
+    color: azure;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 4px solid rgb(255, 135, 30);
+}
+.btn {
+  background-color: rgb(99, 236, 57);
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+
+.btn:hover {
+  opacity: 5;
+}
+</style>
+</head>
+<body text-align="right" background="bg_star.jpg" background-repeat="no-repeat">
+
+
+    <form style="max-width:500px;margin:auto">
+  <h2>Log in to <b>Let's Chat</b></h2>
+  <div class="input-container">
+    <i class="fa fa-user icon"></i>
+    <input id="username" class="input-field" type="text" placeholder="Enter Username">
+  </div>
+
+  
+
+
+  <button onclick="addUser()" class="btn btn-danger">Log In</button>
+</form>
+
+</body>
+</html>
